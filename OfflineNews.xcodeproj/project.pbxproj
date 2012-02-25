@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5535590131C8F33001EFE94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D553558F131C8F33001EFE94 /* UIKit.framework */; };
+		D5535592131C8F33001EFE94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5535591131C8F33001EFE94 /* Foundation.framework */; };
+		D5535594131C8F33001EFE94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5535593131C8F33001EFE94 /* CoreGraphics.framework */; };
+		D553559A131C8F33001EFE94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5535598131C8F33001EFE94 /* InfoPlist.strings */; };
+		D553559D131C8F33001EFE94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D553559C131C8F33001EFE94 /* main.m */; };
+		D55355A0131C8F33001EFE94 /* OfflineNewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D553559F131C8F33001EFE94 /* OfflineNewsAppDelegate.m */; };
+		D55355A3131C8F34001EFE94 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D55355A1131C8F34001EFE94 /* MainWindow.xib */; };
+		D55355A6131C8F34001EFE94 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D55355A5131C8F34001EFE94 /* FirstViewController.m */; };
+		D55355A9131C8F34001EFE94 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D55355A8131C8F34001EFE94 /* SecondViewController.m */; };
+		D55355AC131C8F34001EFE94 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D55355AA131C8F34001EFE94 /* FirstView.xib */; };
+		D55355AF131C8F34001EFE94 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D55355AD131C8F34001EFE94 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D553558B131C8F33001EFE94 /* OfflineNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfflineNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D553558F131C8F33001EFE94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5535591131C8F33001EFE94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5535593131C8F33001EFE94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D5535597131C8F33001EFE94 /* OfflineNews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OfflineNews-Info.plist"; sourceTree = "<group>"; };
+		D5535599131C8F33001EFE94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D553559B131C8F33001EFE94 /* OfflineNews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OfflineNews-Prefix.pch"; sourceTree = "<group>"; };
+		D553559C131C8F33001EFE94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D553559E131C8F33001EFE94 /* OfflineNewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfflineNewsAppDelegate.h; sourceTree = "<group>"; };
+		D553559F131C8F33001EFE94 /* OfflineNewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfflineNewsAppDelegate.m; sourceTree = "<group>"; };
+		D55355A2131C8F34001EFE94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D55355A4131C8F34001EFE94 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D55355A5131C8F34001EFE94 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D55355A7131C8F34001EFE94 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D55355A8131C8F34001EFE94 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D55355AB131C8F34001EFE94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		D55355AE131C8F34001EFE94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5535588131C8F33001EFE94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5535590131C8F33001EFE94 /* UIKit.framework in Frameworks */,
+				D5535592131C8F33001EFE94 /* Foundation.framework in Frameworks */,
+				D5535594131C8F33001EFE94 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5535580131C8F33001EFE94 = {
+			isa = PBXGroup;
+			children = (
+				D5535595131C8F33001EFE94 /* OfflineNews */,
+				D553558E131C8F33001EFE94 /* Frameworks */,
+				D553558C131C8F33001EFE94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D553558C131C8F33001EFE94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D553558B131C8F33001EFE94 /* OfflineNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D553558E131C8F33001EFE94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D553558F131C8F33001EFE94 /* UIKit.framework */,
+				D5535591131C8F33001EFE94 /* Foundation.framework */,
+				D5535593131C8F33001EFE94 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5535595131C8F33001EFE94 /* OfflineNews */ = {
+			isa = PBXGroup;
+			children = (
+				D553559E131C8F33001EFE94 /* OfflineNewsAppDelegate.h */,
+				D553559F131C8F33001EFE94 /* OfflineNewsAppDelegate.m */,
+				D55355A1131C8F34001EFE94 /* MainWindow.xib */,
+				D55355A4131C8F34001EFE94 /* FirstViewController.h */,
+				D55355A5131C8F34001EFE94 /* FirstViewController.m */,
+				D55355A7131C8F34001EFE94 /* SecondViewController.h */,
+				D55355A8131C8F34001EFE94 /* SecondViewController.m */,
+				D55355AA131C8F34001EFE94 /* FirstView.xib */,
+				D55355AD131C8F34001EFE94 /* SecondView.xib */,
+				D5535596131C8F33001EFE94 /* Supporting Files */,
+			);
+			path = OfflineNews;
+			sourceTree = "<group>";
+		};
+		D5535596131C8F33001EFE94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5535597131C8F33001EFE94 /* OfflineNews-Info.plist */,
+				D5535598131C8F33001EFE94 /* InfoPlist.strings */,
+				D553559B131C8F33001EFE94 /* OfflineNews-Prefix.pch */,
+				D553559C131C8F33001EFE94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D553558A131C8F33001EFE94 /* OfflineNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55355B2131C8F34001EFE94 /* Build configuration list for PBXNativeTarget "OfflineNews" */;
+			buildPhases = (
+				D5535587131C8F33001EFE94 /* Sources */,
+				D5535588131C8F33001EFE94 /* Frameworks */,
+				D5535589131C8F33001EFE94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OfflineNews;
+			productName = OfflineNews;
+			productReference = D553558B131C8F33001EFE94 /* OfflineNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5535582131C8F33001EFE94 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D5535585131C8F33001EFE94 /* Build configuration list for PBXProject "OfflineNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D5535580131C8F33001EFE94;
+			productRefGroup = D553558C131C8F33001EFE94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D553558A131C8F33001EFE94 /* OfflineNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5535589131C8F33001EFE94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D553559A131C8F33001EFE94 /* InfoPlist.strings in Resources */,
+				D55355A3131C8F34001EFE94 /* MainWindow.xib in Resources */,
+				D55355AC131C8F34001EFE94 /* FirstView.xib in Resources */,
+				D55355AF131C8F34001EFE94 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5535587131C8F33001EFE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D553559D131C8F33001EFE94 /* main.m in Sources */,
+				D55355A0131C8F33001EFE94 /* OfflineNewsAppDelegate.m in Sources */,
+				D55355A6131C8F34001EFE94 /* FirstViewController.m in Sources */,
+				D55355A9131C8F34001EFE94 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5535598131C8F33001EFE94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5535599131C8F33001EFE94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D55355A1131C8F34001EFE94 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D55355A2131C8F34001EFE94 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D55355AA131C8F34001EFE94 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D55355AB131C8F34001EFE94 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		D55355AD131C8F34001EFE94 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D55355AE131C8F34001EFE94 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D55355B0131C8F34001EFE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D55355B1131C8F34001EFE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D55355B3131C8F34001EFE94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OfflineNews/OfflineNews-Prefix.pch";
+				INFOPLIST_FILE = "OfflineNews/OfflineNews-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D55355B4131C8F34001EFE94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OfflineNews/OfflineNews-Prefix.pch";
+				INFOPLIST_FILE = "OfflineNews/OfflineNews-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5535585131C8F33001EFE94 /* Build configuration list for PBXProject "OfflineNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55355B0131C8F34001EFE94 /* Debug */,
+				D55355B1131C8F34001EFE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D55355B2131C8F34001EFE94 /* Build configuration list for PBXNativeTarget "OfflineNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55355B3131C8F34001EFE94 /* Debug */,
+				D55355B4131C8F34001EFE94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5535582131C8F33001EFE94 /* Project object */;
+}
